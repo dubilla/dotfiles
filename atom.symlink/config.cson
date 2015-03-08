@@ -2,7 +2,7 @@
   'editor':
     'showIndentGuide': true
     'fontFamily': 'Menlo'
-    'fontSize': 15
+    'fontSize': 16
     'invisibles': {}
   'core':
     'ignoredNames': [
@@ -16,6 +16,8 @@
     'themes': [
       'unity-ui'
       'glacier-syntax'
+      'atom-dark-ui'
+      'atom-dark-syntax'
     ]
     'hideGitIgnoredFiles': true
     'disabledPackages': [
@@ -33,3 +35,12 @@
     'showOnStartup': false
   'release-notes':
     'viewedVersion': '0.89.0'
+  'exception-reporting':
+    'userId': 'd805e503-76c3-f10f-1c81-b366dd737b4d'
+  'release-notes':
+    'viewedVersion': '0.60.0'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': 'b2c40195cf78d3ea68294861905eb853d111080e'
+
