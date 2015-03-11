@@ -14,7 +14,7 @@ alias b="bundle"
 # Tests and Specs
 alias t="ruby -I test"
 
-alias migrate="bundle exec rake db:migrate && bundle exec rake db:migrate RAILS_ENV=test"
+alias migrate="rake db:migrate && RAILS_ENV=test rake db:migrate"
 alias zues="zeus"
 alias z="zeus"
 
