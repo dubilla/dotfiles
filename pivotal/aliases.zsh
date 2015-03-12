@@ -1,0 +1,1 @@
+alias pt='pivotal-slacker'

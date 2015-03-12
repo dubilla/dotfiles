@@ -2,6 +2,9 @@
 *~
 *.swp
 
-#zeus
+# zeus
 custom_plan.rb
 zeus.json
+
+# pivotal
+.pt.yaml
