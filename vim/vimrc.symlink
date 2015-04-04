@@ -2,5 +2,8 @@ execute pathogen#infect()
 
 syntax on
 
+set number
+set tabstop=2 shiftwidth=2 expandtab
+
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
