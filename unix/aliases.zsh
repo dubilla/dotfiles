@@ -15,3 +15,6 @@ alias v='$VISUAL'
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
+
+# Grep
+export GREP_OPTIONS='--color=auto'
