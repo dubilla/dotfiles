@@ -17,11 +17,9 @@ alias gco='git checkout'
 alias gcb='git copy-branch-name'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
-
-# git
 alias gci="git pull --rebase && rake && git push"
-
-alias branches="git for-each-ref --sort=-committerdate refs/heads/ --format='%1B[0;32m%(authorname)%09%1B[0;36m(%(committerdate:relative))%09%1B[0;33m%(refname:short)%09%1B[m%(subject)' --count 25 | tail -r | column -t -s $'\t'"
+alias branches="git for-each-ref --sort=-committerdate refs/heads/ --format='%1B[0;32m%(authorname)%09%1B[0;36m(%(committerdate:relative))%09%1B[0;33m%(refname:short)%09%1B[m%(subject)' --count 10 | tail -r | column -t -s $'\t'"
+alias gopr="git pull-request"
 
 ### Git tab completion script. ###
 # curl https://github.com/git/git/raw/master/contrib/completion/git-completion.bash -OL
