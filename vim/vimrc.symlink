@@ -5,5 +5,10 @@ syntax on
 set number
 set tabstop=2 shiftwidth=2 expandtab
 
+let mapleader = ","
+
+" Delete trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
+
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
