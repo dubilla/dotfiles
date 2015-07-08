@@ -12,3 +12,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
+
+" KeyMappings
+let g:CommandTAcceptSelectionSplitMap=['<CR>', '<C-g>']
