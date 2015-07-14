@@ -15,3 +15,5 @@ filetype indent plugin on
 
 " KeyMappings
 let g:CommandTAcceptSelectionSplitMap=['<CR>', '<C-g>']
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
