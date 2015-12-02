@@ -34,12 +34,16 @@
   'welcome':
     'showOnStartup': false
   'release-notes':
-    'viewedVersion': '0.89.0'
+    'viewedVersion': '0.60.0'
   'exception-reporting':
     'userId': 'd805e503-76c3-f10f-1c81-b366dd737b4d'
-  'release-notes':
-    'viewedVersion': '0.60.0'
-  'welcome':
-    'showOnStartup': false
   'metrics':
     'userId': 'b2c40195cf78d3ea68294861905eb853d111080e'
+'exception-reporting':
+  'userId': 'c78940ec-abd8-9d21-786f-215543f25e9e'
+'release-notes':
+  'viewedVersion': '0.60.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'b2c40195cf78d3ea68294861905eb853d111080e'
