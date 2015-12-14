@@ -23,7 +23,7 @@ let g:CommandTAcceptSelectionSplitMap=['<CR>', '<C-g>']
 let g:CommandTAcceptSelectionMap=['<CR>']
 let g:CommandTAcceptSelectionSplitMap=['<C-g>']
 let g:CommandTCancelMap = ['<ESC>', '<C-c>']
-+nmap <leader>n :NERDTree<cr>
+nmap <leader>n :NERDTree<cr>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-H> <C-W><C-H>
@@ -33,4 +33,4 @@ nnoremap <C-P> <C-W>=
 nnoremap <Leader>rc :!rubocop "%"<CR>KeyMappings
 
 " Edit .vimrc
-+nnoremap <silent>,ev :e $MYVIMRC<CR>
+nnoremap <silent>,ev :e $MYVIMRC<CR>
