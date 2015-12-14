@@ -13,9 +13,24 @@ let mapleader = ","
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Wrap gitcommit file types at the appropriate length
-filetype indent plugin on
+filetype plugin indent on
+filetype plugin on
+
+set wildignore=node_modules*,*.png,*.jpg
 
 " KeyMappings
 let g:CommandTAcceptSelectionSplitMap=['<CR>', '<C-g>']
+let g:CommandTAcceptSelectionMap=['<CR>']
+let g:CommandTAcceptSelectionSplitMap=['<C-g>']
+let g:CommandTCancelMap = ['<ESC>', '<C-c>']
++nmap <leader>n :NERDTree<cr>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-O> <C-W>_
+nnoremap <C-P> <C-W>=
+nnoremap <Leader>rc :!rubocop "%"<CR>KeyMappings
+
+" Edit .vimrc
++nnoremap <silent>,ev :e $MYVIMRC<CR>
