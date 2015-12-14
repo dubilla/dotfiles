@@ -1,6 +1,8 @@
 execute pathogen#infect()
 
 syntax on
+"set background=dark
+"colorscheme solarized
 
 set number
 set tabstop=2 shiftwidth=2 expandtab
