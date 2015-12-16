@@ -1,6 +1,6 @@
 execute pathogen#infect()
-
 syntax on
+filetype plugin indent on
 "set background=dark
 "colorscheme solarized
 
@@ -11,10 +11,6 @@ let mapleader = ","
 
 " Delete trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
-
-" Wrap gitcommit file types at the appropriate length
-filetype plugin indent on
-filetype plugin on
 
 set wildignore=node_modules*,*.png,*.jpg
 
