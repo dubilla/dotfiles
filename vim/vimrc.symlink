@@ -12,6 +12,14 @@ let mapleader = ","
 " Delete trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Ruby Autocompletion
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+
+autocmd FileType typescript syntax off
+autocmd FileType typescript.tsx syntax off
+
 set wildignore=node_modules*,*.png,*.jpg
 
 " KeyMappings
@@ -25,8 +33,18 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-O> <C-W>_
-nnoremap <C-P> <C-W>=
+nnoremap <C-I> <C-W>=
 nnoremap <Leader>rc :!rubocop "%"<CR>KeyMappings
 
 " Edit .vimrc
 nnoremap <silent>,ev :e $MYVIMRC<CR>
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+" FZF
+set rtp+=/usr/local/opt/fzf
+
+" Set CtrlP to Show Hidden Files
+let g:ctrlp_show_hidden = 1
