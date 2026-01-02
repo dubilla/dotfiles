@@ -6,3 +6,7 @@ atom.symlink/storage
 atom.symlink/themes
 
 git/gitconfig.symlink
+
+# Vim plugin directories (bundles are submodules)
+vim/vim.symlink/bundle-disabled/
+vim/vim.symlink/pack/
