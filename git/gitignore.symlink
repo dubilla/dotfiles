@@ -8,3 +8,5 @@ zeus.json
 
 # pivotal
 .pt.yaml
+
+**/.claude/settings.local.json
