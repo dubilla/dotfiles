@@ -10,3 +10,6 @@ git/gitconfig.symlink
 # Vim plugin directories (bundles are submodules)
 vim/vim.symlink/bundle-disabled/
 vim/vim.symlink/pack/
+
+# Vim directory-browsing history (machine-local)
+vim/vim.symlink/.netrwhist
